@@ -8,7 +8,7 @@
     "build": "tsc",
     "w": "tsc -w",
     "prestart": "npm run build",
-    "start": "nodemon ./dist/",
+    "start": "nodemon ./api/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lucas Nascimento",
