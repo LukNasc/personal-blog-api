@@ -17,6 +17,6 @@ router.post("/users/login", Users_1.default.login);
 // Articles
 router.post("/articles/store", [verify_1.default], Articles_1.default.store);
 router.get("/articles/list", Articles_1.default.list);
-router.get("/articles/getArticleById:ID", Articles_1.default.getArticleById);
+router.get("/articles/getArticleById", Articles_1.default.getArticleById);
 exports.default = module.exports = router;
 //# sourceMappingURL=routes.js.map
