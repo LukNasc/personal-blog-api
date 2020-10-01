@@ -1,4 +1,4 @@
-import Articles from '../../models/Articles';
+import Articles, { ArticleModel } from '../../models/Articles';
 import { Request, Response, NextFunction } from 'express';
 
 export default module.exports = {
