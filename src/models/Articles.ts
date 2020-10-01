@@ -22,4 +22,4 @@ const ArticleSchema = new mongoose.Schema({
     user: String,
 }) ;
 
-export default module.exports = mongoose.model("Articles", ArticleSchema);
+export default  mongoose.model<ArticelModel>("Articles", ArticleSchema);
