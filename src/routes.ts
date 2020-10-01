@@ -16,6 +16,7 @@ router.post("/users/login", UsersController.login);
 
 // Articles
 router.post("/articles/store", [verifyJWT], ArticlesController.store);
-router.get("/articles/list", [verifyJWT], ArticlesController.list);
+router.get("/articles/list", ArticlesController.list);
+router.get("/articles/getArticleById", ArticlesController.getArticleById);
 
 export default module.exports = router;

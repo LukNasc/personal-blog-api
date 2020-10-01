@@ -4,7 +4,6 @@
   "description": "",
   "main": "./src/server.ts",
   "scripts": {
-    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
     "w": "tsc -w",
     "prestart": "npm run build",

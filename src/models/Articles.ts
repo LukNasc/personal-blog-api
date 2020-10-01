@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-export interface ArticelModel extends mongoose.Document{
+export interface ArticleModel extends mongoose.Document{
     title: string,
     date: string
 }
@@ -22,4 +22,4 @@ const ArticleSchema = new mongoose.Schema({
     user: String,
 }) ;
 
-export default module.exports = mongoose.model("Articles", ArticleSchema);
+export default mongoose.model<ArticleModel>("Articles", ArticleSchema);
